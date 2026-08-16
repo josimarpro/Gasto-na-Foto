@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gasto na Foto</title>
+</head>
+<body>
+  <div class="caixa-topo">
+  <h1>Gasto na Foto</h1>
+  <p>Fotografe o comprovante e veja a soma</p>
+</div>
+
+
+<div class="caixa-total">
+  <p class="total">R$ 0,00</p>
+  <p class="quantos">0 comprovantes lidos</p>
+</div>
+
+
+<label class="caixa-foto">
+  🧾 Toque para fotografar o comprovante
+  <input type="file" class="foto" accept="image/*" capture="environment" onchange="lerFoto()">
+</label>
+
+<div class="lista"></div>
+
+<div class="rodape"></div>
+  <body>
+    <script src="https://js.puter.com/v2/"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

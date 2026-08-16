@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background: #f5f2f9;
+  color: #22304a;
+}
+.caixa-total {
+  background: #0f766e;
+  border-radius: 5px;
+}
+.caixa-foto {
+  background: #ffffff;
+  border: 2px dashed #c3cfe0;
+}
+.comprovante {
+  background: #ffffff;
+  border-radius: 14px;
+}
+.itens {
+  white-space: pre-line;
+}
+.total-nota {
+  display: flex;
+  justify-content: space-between;
+}
